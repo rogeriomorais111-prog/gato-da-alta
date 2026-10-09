@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#2a1a10" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<title>Gato da Alta</title>
+  <script type="module" crossorigin src="./assets/index-6YpRAb0D.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BrKfrTmE.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="hud" class="hidden">
+  <div id="counters">
+    <div class="pill" id="fishPill"><span class="ico">🐟</span><span id="fishCount">0/0</span></div>
+    <div class="pill" id="embPill"><span class="ico">🛡️</span><span>Emblemas <b id="embCount">0/0</b></span></div>
+  </div>
+  <div id="topRight">
+    <button class="small" id="missionsBtn" title="Missões">📜</button>
+    <button class="small" id="qualityBtn" title="Qualidade gráfica">HQ</button>
+    <button class="small" id="pauseBtn" title="Pausa">❚❚</button>
+  </div>
+  <div id="placeName"></div>
+  <div id="toasts"></div>
+  <div id="labels"></div>
+  <div id="missions"></div>
+  <div id="fps"></div>
+</div>
+
+<div id="touchUI" class="hidden">
+  <div id="joyZone"></div>
+  <div id="joyBase"><div id="joyKnob"></div></div>
+  <div id="lookZone"></div>
+  <button id="jumpBtn" aria-label="Saltar">⤒</button>
+  <button id="runBtn" aria-label="Correr">»</button>
+</div>
+
+<div id="start">
+  <div class="startInner">
+    <h1>Gato da Alta</h1>
+    <p class="sub">Um gato à solta na Alta de Coimbra</p>
+    <div id="loadBar"><div id="loadFill"></div></div>
+    <p id="loadText">A carregar…</p>
+    <button id="playBtn" disabled>Jogar</button><br>
+    <button id="catBtn" class="secondary" disabled>🐈 Escolher gato</button>
+    <p class="help desktop">WASD / setas · Shift correr · Espaço saltar · arrastar o rato para rodar a câmara</p>
+    <p class="help mobile">Joystick à esquerda · arrastar à direita para rodar · botão para saltar</p>
+    <p class="goal">Apanha os peixes 🐟 e os emblemas das Repúblicas 🛡️</p>
+    <button class="link" id="creditsBtn">Créditos</button>
+  </div>
+</div>
+
+<div id="select" class="hidden">
+  <div class="selTop"><button id="selBack" class="small">← Voltar</button><h2>Escolhe o teu gato</h2></div>
+  <button id="selPrev" class="arrow" aria-label="Anterior">‹</button>
+  <button id="selNext" class="arrow" aria-label="Seguinte">›</button>
+  <div class="selPanel">
+    <div id="selBadge"></div>
+    <div id="selName"></div>
+    <div id="selRaca"></div>
+    <button id="selChoose">Escolher</button>
+    <div id="selStrip"></div>
+  </div>
+</div>
+
+<div id="paywall" class="hidden">
+  <div class="payBox">
+    <div id="payDemo">MODO DEMONSTRAÇÃO — nenhum pagamento real é efetuado</div>
+    <img id="payImg" alt="">
+    <h3>Gato premium</h3>
+    <p id="payTitle"></p>
+    <p id="payPrice" class="price"></p>
+    <p class="small">Desbloqueia este gato para sempre neste dispositivo.</p>
+    <button id="payConfirm">Confirmar compra (demo)</button>
+    <button id="payCancel" class="link">Cancelar</button>
+    <p id="payMsg"></p>
+  </div>
+</div>
+
+<div id="credits" class="hidden">
+  <div class="startInner creditsInner">
+    <h2>Créditos</h2>
+    <ul>
+      <li>Gato animado: <b>“Cat” por Quaternius</b> (CC0) — poly.pizza/m/qKICY6xla2; 14 variantes (re-UV, pintura, raças) pela equipa Arte Gato Coimbra (CC0)</li>
+      <li>Texturas e HDRI: <b>Poly Haven</b> (polyhaven.com) e <b>ambientCG</b> (ambientcg.com), CC0 — white_stucco, yellow_plaster, white_plaster_02, white_sandstone_bricks, clay_roof_tiles_02, cobblestone_floor_08, PavingStones143, venice_sunset, qwantani_sunset_puresky</li>
+      <li>Direção de arte: equipa Arte Gato Coimbra · Mundo: equipa Mundo Gato Coimbra (design/mundo.md)</li>
+      <li>Motor: three.js (MIT)</li>
+    </ul>
+    <button id="closeCredits">Fechar</button>
+  </div>
+</div>
+
+</body>
+</html>

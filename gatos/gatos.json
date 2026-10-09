@@ -1,0 +1,428 @@
+{
+  "versao": "1.3",
+  "nota_raridade": "raridade = comum|raro|epico|lendario (fonte: gacha/raridades.json). Os premium obtêm-se pela tiragem (gacha); \"laranja\" é o gato inicial oferecido.",
+  "gerado": "2026-10-09",
+  "nota_precos": "SUGESTÃO da direção de arte (não é decisão comercial): gratis / 0.99€ / 1.99€.",
+  "licenca": "CC0 1.0 — todas as variantes derivam de \"Cat\" de Quaternius (poly.pizza/m/qKICY6xla2), CC0.",
+  "caminhos_relativos_a": "/workspace/gato-coimbra/art/",
+  "laco": {
+    "no": "Laco",
+    "malha": "Laco",
+    "osso": "Head",
+    "tris": 60,
+    "cor": "#141417",
+    "realce": "#2A2A30",
+    "nota": "Laço preto do traje académico (imagem de marca, decisão do líder de projeto 9 out 2026). Incluído em TODOS os GLB como nó/malha separado \"Laco\" (SkinnedMesh, 100 % osso Head, mesmo material). Não acrescentar outro laço em código."
+  },
+  "partilhado": {
+    "metallicRoughness": "gatos/_partilhado/gato_metallicRoughness.png",
+    "mapa_uv_regioes": "gatos/_partilhado/gato_uv_regioes.png",
+    "nota": "Todos os GLB de variantes partilham o mesmo layout UV, material, esqueleto e nomes de animação."
+  },
+  "animacoes": {
+    "idle": "AnimalArmature|AnimalArmature|AnimalArmature|Idle",
+    "comer": "AnimalArmature|AnimalArmature|AnimalArmature|Idle_Eating",
+    "andar": "AnimalArmature|AnimalArmature|AnimalArmature|Walk",
+    "correr": "AnimalArmature|AnimalArmature|AnimalArmature|Run",
+    "salto_inicio": "AnimalArmature|AnimalArmature|AnimalArmature|Jump_Start",
+    "salto_loop": "AnimalArmature|AnimalArmature|AnimalArmature|Jump_Loop",
+    "carinho": "AnimalArmature|AnimalArmature|AnimalArmature|Headbutt",
+    "morte": "AnimalArmature|AnimalArmature|AnimalArmature|Death"
+  },
+  "forma_legenda": {
+    "escala": "escala uniforme sugerida para o objeto raiz (gltf.scene.scale.setScalar)",
+    "ossos_escala": "opcional: bone.scale.setScalar(v) depois de carregar (as animações só têm rotação/translação, logo não é sobrescrito)",
+    "malha": "alteração já cozida no GLB"
+  },
+  "gatos": [
+    {
+      "id": "laranja",
+      "nome": "Laranja Malhado",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "O gato da Alta: tigrado laranja, focinho e patas creme.",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/laranja/gato_laranja.glb",
+        "textura": "gatos/laranja/gato_laranja_albedo.png",
+        "textura_uvoriginal": "gatos/laranja/gato_laranja_albedo_uvoriginal.png",
+        "preview": "gatos/laranja/preview_laranja.png"
+      },
+      "cores": {
+        "pelo": "#D9822B",
+        "riscas": "#9C4E16",
+        "realce": "#F2AE5C",
+        "creme": "#F3E3C3",
+        "nariz": "#D98C82",
+        "olhos": "#B7A23A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "preto",
+      "nome": "Preto",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "Preto azeviche de olhos dourados — dá sorte nas escadinhas da Sé Velha.",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/preto/gato_preto.glb",
+        "textura": "gatos/preto/gato_preto_albedo.png",
+        "textura_uvoriginal": "gatos/preto/gato_preto_albedo_uvoriginal.png",
+        "preview": "gatos/preto/preview_preto.png"
+      },
+      "cores": {
+        "pelo": "#1F1F24",
+        "realce": "#3A3A46",
+        "nariz": "#3A2C30",
+        "olhos": "#E3B53A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "branco",
+      "nome": "Branco",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "Branco cal, com um olho azul e outro âmbar.",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/branco/gato_branco.glb",
+        "textura": "gatos/branco/gato_branco_albedo.png",
+        "textura_uvoriginal": "gatos/branco/gato_branco_albedo_uvoriginal.png",
+        "preview": "gatos/branco/preview_branco.png"
+      },
+      "cores": {
+        "pelo": "#EEEAE2",
+        "orelha_interior": "#E8B4B0",
+        "nariz": "#E39A9A",
+        "olho_esq": "#6FB1E3",
+        "olho_dir": "#D9B23A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "cinzento_malhado",
+      "nome": "Cinzento Malhado",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "Tigrado cinzento com peito branco, cor de calçada.",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/cinzento_malhado/gato_cinzento_malhado.glb",
+        "textura": "gatos/cinzento_malhado/gato_cinzento_malhado_albedo.png",
+        "textura_uvoriginal": "gatos/cinzento_malhado/gato_cinzento_malhado_albedo_uvoriginal.png",
+        "preview": "gatos/cinzento_malhado/preview_cinzento_malhado.png"
+      },
+      "cores": {
+        "pelo": "#8E8C88",
+        "riscas": "#3F3E40",
+        "claro": "#ECE8E0",
+        "nariz": "#C98C8A",
+        "olhos": "#8DB04A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "frajola",
+      "nome": "Frajola",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "Preto e branco de \"smoking\", sempre pronto para a serenata.",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/frajola/gato_frajola.glb",
+        "textura": "gatos/frajola/gato_frajola_albedo.png",
+        "textura_uvoriginal": "gatos/frajola/gato_frajola_albedo_uvoriginal.png",
+        "preview": "gatos/frajola/preview_frajola.png"
+      },
+      "cores": {
+        "pelo": "#1F1F24",
+        "branco": "#F1EEE7",
+        "nariz": "#E39A9A",
+        "olhos": "#A8C040"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "tricolor",
+      "nome": "Tricolor",
+      "raca": "Rafeiro (europeu comum)",
+      "descricao": "Manchas laranja e pretas sobre branco (calico).",
+      "premium": false,
+      "raridade": "comum",
+      "preco_sugerido": "gratis",
+      "paths": {
+        "glb": "gatos/tricolor/gato_tricolor.glb",
+        "textura": "gatos/tricolor/gato_tricolor_albedo.png",
+        "textura_uvoriginal": "gatos/tricolor/gato_tricolor_albedo_uvoriginal.png",
+        "preview": "gatos/tricolor/preview_tricolor.png"
+      },
+      "cores": {
+        "branco": "#F1EDE4",
+        "laranja": "#D9822B",
+        "preto": "#26262A",
+        "nariz": "#E3A0A0",
+        "olhos": "#C9A33A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "persa",
+      "nome": "Persa Chinchila",
+      "raca": "Persa",
+      "descricao": "Prateado chinchila, cara achatada e ar aristocrático.",
+      "premium": true,
+      "raridade": "lendario",
+      "preco_sugerido": "1.99€",
+      "paths": {
+        "glb": "gatos/persa/gato_persa.glb",
+        "textura": "gatos/persa/gato_persa_albedo.png",
+        "textura_uvoriginal": "gatos/persa/gato_persa_albedo_uvoriginal.png",
+        "preview": "gatos/persa/preview_persa.png"
+      },
+      "cores": {
+        "pelo": "#E9E8E4",
+        "pontas": "#6E7078",
+        "nariz": "#C98A8A",
+        "olhos": "#3FA88A"
+      },
+      "forma": {
+        "escala": 1.05,
+        "ossos_escala": {
+          "Head": 1.08
+        },
+        "malha": "focinho recuado (cara achatada) já aplicado no GLB",
+        "nota": "pelo longo/fofo precisa de modelo próprio"
+      }
+    },
+    {
+      "id": "bengal",
+      "nome": "Bengal",
+      "raca": "Bengal",
+      "descricao": "Dourado com rosetas pretas de leopardo.",
+      "premium": true,
+      "raridade": "epico",
+      "preco_sugerido": "1.99€",
+      "paths": {
+        "glb": "gatos/bengal/gato_bengal.glb",
+        "textura": "gatos/bengal/gato_bengal_albedo.png",
+        "textura_uvoriginal": "gatos/bengal/gato_bengal_albedo_uvoriginal.png",
+        "preview": "gatos/bengal/preview_bengal.png"
+      },
+      "cores": {
+        "pelo": "#D8A04A",
+        "rosetas": "#22160E",
+        "interior_roseta": "#9A5A26",
+        "barriga": "#F0DDB0",
+        "olhos": "#9DBB3A"
+      },
+      "forma": {
+        "escala": 1.05,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "siames",
+      "nome": "Siamês",
+      "raca": "Siamês",
+      "descricao": "Creme com pontos seal (cara, orelhas, patas, cauda) e olhos azuis.",
+      "premium": true,
+      "raridade": "raro",
+      "preco_sugerido": "0.99€",
+      "paths": {
+        "glb": "gatos/siames/gato_siames.glb",
+        "textura": "gatos/siames/gato_siames_albedo.png",
+        "textura_uvoriginal": "gatos/siames/gato_siames_albedo_uvoriginal.png",
+        "preview": "gatos/siames/preview_siames.png"
+      },
+      "cores": {
+        "pelo": "#ECDDC2",
+        "pontos": "#4A3428",
+        "nariz": "#3B2A26",
+        "olhos": "#3C86D6"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "maine_coon",
+      "nome": "Maine Coon",
+      "raca": "Maine Coon",
+      "descricao": "Tigrado castanho, o gigante gentil.",
+      "premium": true,
+      "raridade": "epico",
+      "preco_sugerido": "1.99€",
+      "paths": {
+        "glb": "gatos/maine_coon/gato_maine_coon.glb",
+        "textura": "gatos/maine_coon/gato_maine_coon_albedo.png",
+        "textura_uvoriginal": "gatos/maine_coon/gato_maine_coon_albedo_uvoriginal.png",
+        "preview": "gatos/maine_coon/preview_maine_coon.png"
+      },
+      "cores": {
+        "pelo": "#8A6440",
+        "riscas": "#2B1F14",
+        "realce": "#B08A5E",
+        "claro": "#E8DCC4",
+        "olhos": "#C9A43A"
+      },
+      "forma": {
+        "escala": 1.2,
+        "ossos_escala": {
+          "Tail": 1.15
+        },
+        "malha": null,
+        "nota": "silhueta fofa/tufos nas orelhas precisa de modelo próprio"
+      }
+    },
+    {
+      "id": "azul_russo",
+      "nome": "Azul-Russo",
+      "raca": "Azul-Russo",
+      "descricao": "Azul-acinzentado prateado de olhos verde-esmeralda.",
+      "premium": true,
+      "raridade": "raro",
+      "preco_sugerido": "0.99€",
+      "paths": {
+        "glb": "gatos/azul_russo/gato_azul_russo.glb",
+        "textura": "gatos/azul_russo/gato_azul_russo_albedo.png",
+        "textura_uvoriginal": "gatos/azul_russo/gato_azul_russo_albedo_uvoriginal.png",
+        "preview": "gatos/azul_russo/preview_azul_russo.png"
+      },
+      "cores": {
+        "pelo": "#7C8898",
+        "realce": "#B7C2CF",
+        "nariz": "#5F6474",
+        "olhos": "#4FBF5A"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "ragdoll",
+      "nome": "Ragdoll",
+      "raca": "Ragdoll",
+      "descricao": "Colourpoint seal com luvas brancas, queixo branco e olhos azuis.",
+      "premium": true,
+      "raridade": "epico",
+      "preco_sugerido": "1.99€",
+      "paths": {
+        "glb": "gatos/ragdoll/gato_ragdoll.glb",
+        "textura": "gatos/ragdoll/gato_ragdoll_albedo.png",
+        "textura_uvoriginal": "gatos/ragdoll/gato_ragdoll_albedo_uvoriginal.png",
+        "preview": "gatos/ragdoll/preview_ragdoll.png"
+      },
+      "cores": {
+        "pelo": "#EFE6D4",
+        "pontos": "#5A4436",
+        "luvas": "#F6F3EC",
+        "olhos": "#4E95E0"
+      },
+      "forma": {
+        "escala": 1.1,
+        "ossos_escala": {},
+        "malha": null,
+        "nota": null
+      }
+    },
+    {
+      "id": "sphynx",
+      "nome": "Sphynx",
+      "raca": "Sphynx",
+      "descricao": "Sem pelo: pele rosada-bege com rugas e orelhas grandes.",
+      "premium": true,
+      "raridade": "raro",
+      "preco_sugerido": "0.99€",
+      "paths": {
+        "glb": "gatos/sphynx/gato_sphynx.glb",
+        "textura": "gatos/sphynx/gato_sphynx_albedo.png",
+        "textura_uvoriginal": "gatos/sphynx/gato_sphynx_albedo_uvoriginal.png",
+        "preview": "gatos/sphynx/preview_sphynx.png"
+      },
+      "cores": {
+        "pele": "#E3BFA8",
+        "manchas": "#C99E88",
+        "nariz": "#C98A82",
+        "olhos": "#B8C24A"
+      },
+      "forma": {
+        "escala": 0.95,
+        "ossos_escala": {},
+        "malha": "orelhas maiores já aplicado no GLB",
+        "nota": "silhueta magra/rugas reais precisam de modelo próprio"
+      }
+    },
+    {
+      "id": "scottish_fold",
+      "nome": "Scottish Fold",
+      "raca": "Scottish Fold",
+      "descricao": "Cinzento-prateado de orelhas dobradas e olhos cor de cobre.",
+      "premium": true,
+      "raridade": "raro",
+      "preco_sugerido": "0.99€",
+      "paths": {
+        "glb": "gatos/scottish_fold/gato_scottish_fold.glb",
+        "textura": "gatos/scottish_fold/gato_scottish_fold_albedo.png",
+        "textura_uvoriginal": "gatos/scottish_fold/gato_scottish_fold_albedo_uvoriginal.png",
+        "preview": "gatos/scottish_fold/preview_scottish_fold.png"
+      },
+      "cores": {
+        "pelo": "#A6A8AE",
+        "riscas": "#6E7178",
+        "claro": "#E6E6E4",
+        "olhos": "#E09A2E"
+      },
+      "forma": {
+        "escala": 1.0,
+        "ossos_escala": {},
+        "malha": "orelhas dobradas já aplicado no GLB",
+        "nota": null
+      }
+    }
+  ]
+}

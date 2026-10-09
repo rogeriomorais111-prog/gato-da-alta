@@ -1,0 +1,737 @@
+{
+  "version": 2,
+  "image": "atlas_emblemas_2048.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "cell": 256,
+  "uvConvention": "v com origem em baixo (Three.js, texture.flipY = true). Para KTX2 (flipY=false) usar o rect \"px\".",
+  "note": "Emblemas, nomes e lemas FICTÍCIOS e originais. Chaves = slug do nome fictício; \"byName\" liga o nome fictício (republicas.names.json / mundo_v2.json \"name\") ao slug; \"byId\" liga o id fictício de mundo_v2.json / republicas_nomes.json ao slug. Ficheiro distribuível: não contém nomes nem ids reais. Linhas 5–8 livres (27 emblemas). Margem >= 16 px por célula.",
+  "byName": {
+    "Gatágados": "gatagados",
+    "Bago & Bigode": "bago-bigode",
+    "Rás-Te-Ronrona": "ras-te-ronrona",
+    "Gatifões do Poleiro": "gatifoes-do-poleiro",
+    "Palácio da Miaucura": "palacio-da-miaucura",
+    "Pata-Abaixo": "pata-abaixo",
+    "Cesto dos Gatulões": "cesto-dos-gatuloes",
+    "Prá-Miau-Tão": "pra-miau-tao",
+    "Spreit-ó-Telhado": "spreit-o-telhado",
+    "Miau-Ó-Linda": "miau-o-linda",
+    "Miaunkas": "miaunkas",
+    "Boa-Miau-Ela": "boa-miau-ela",
+    "Rato-Táxi": "rato-taxi",
+    "Corsigatos Ilhéus": "corsigatos-ilheus",
+    "Ka-Patorras": "ka-patorras",
+    "Trunfé-Bigodes": "trunfe-bigodes",
+    "Faro-Gato das Ilhas": "faro-gato-das-ilhas",
+    "Solar dos Açorgatos": "solar-dos-acorgatos",
+    "Fantasgatos": "fantasgatos",
+    "Praceta dos Gatos": "praceta-dos-gatos",
+    "Solar das 44 Patas": "solar-das-44-patas",
+    "Miaurenta": "miaurenta",
+    "Gatas do Loureiro": "gatas-do-loureiro",
+    "Pyn-Gatyns": "pyn-gatyns",
+    "Solar da Rosa Ruiva": "solar-da-rosa-ruiva",
+    "Simpatas": "simpatas",
+    "Quimbo dos Bigodes": "quimbo-dos-bigodes"
+  },
+  "byId": {
+    "gatagados": "gatagados",
+    "bagoBigode": "bago-bigode",
+    "rasTeRonrona": "ras-te-ronrona",
+    "gatifoesPoleiro": "gatifoes-do-poleiro",
+    "palacioMiaucura": "palacio-da-miaucura",
+    "pataAbaixo": "pata-abaixo",
+    "cestoGatuloes": "cesto-dos-gatuloes",
+    "praMiauTao": "pra-miau-tao",
+    "spreitOTelhado": "spreit-o-telhado",
+    "miauOLinda": "miau-o-linda",
+    "miaunkas": "miaunkas",
+    "boaMiauEla": "boa-miau-ela",
+    "ratoTaxi": "rato-taxi",
+    "corsigatosIlheus": "corsigatos-ilheus",
+    "kaPatorras": "ka-patorras",
+    "trunfeBigodes": "trunfe-bigodes",
+    "faroGatoIlhas": "faro-gato-das-ilhas",
+    "solarAcorgatos": "solar-dos-acorgatos",
+    "fantasgatos": "fantasgatos",
+    "pracetaGatos": "praceta-dos-gatos",
+    "solar44Patas": "solar-das-44-patas",
+    "miaurenta": "miaurenta",
+    "gatasLoureiro": "gatas-do-loureiro",
+    "pynGatyns": "pyn-gatyns",
+    "solarRosaRuiva": "solar-da-rosa-ruiva",
+    "simpatas": "simpatas",
+    "quimboBigodes": "quimbo-dos-bigodes"
+  },
+  "emblems": {
+    "gatagados": {
+      "name": "Gatágados",
+      "motto": "Devagar se chega ao telhado.",
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.0,
+        "v0": 0.875,
+        "u1": 0.125,
+        "v1": 1.0
+      },
+      "colors": [
+        "#2E6B5E",
+        "#F1E4C4",
+        "#C9A060"
+      ],
+      "shape": "escudo",
+      "motif": "gato_cesto_concha",
+      "png": "emblemas_png/gatagados.png",
+      "pngMotto": "emblemas_lema_png/gatagados.png"
+    },
+    "bago-bigode": {
+      "name": "Bago & Bigode",
+      "motto": "Uva a uva se enche o cacho.",
+      "px": {
+        "x": 256,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.125,
+        "v0": 0.875,
+        "u1": 0.25,
+        "v1": 1.0
+      },
+      "colors": [
+        "#5E2A4E",
+        "#E8CF8A",
+        "#7E9A4A"
+      ],
+      "shape": "redondo",
+      "motif": "cacho_gato",
+      "png": "emblemas_png/bago-bigode.png",
+      "pngMotto": "emblemas_lema_png/bago-bigode.png"
+    },
+    "ras-te-ronrona": {
+      "name": "Rás-Te-Ronrona",
+      "motto": "Quem ronrona não arranha.",
+      "px": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.25,
+        "v0": 0.875,
+        "u1": 0.375,
+        "v1": 1.0
+      },
+      "colors": [
+        "#2B3A55",
+        "#E8BE66"
+      ],
+      "shape": "escudo",
+      "motif": "gato_ronrom",
+      "png": "emblemas_png/ras-te-ronrona.png",
+      "pngMotto": "emblemas_lema_png/ras-te-ronrona.png"
+    },
+    "gatifoes-do-poleiro": {
+      "name": "Gatifões do Poleiro",
+      "motto": "Cantamos à alvorada, miamos ao pôr do sol.",
+      "px": {
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.375,
+        "v0": 0.875,
+        "u1": 0.5,
+        "v1": 1.0
+      },
+      "colors": [
+        "#8E3F28",
+        "#F2E6C9",
+        "#E3B04A"
+      ],
+      "shape": "redondo",
+      "motif": "gato_poleiro",
+      "png": "emblemas_png/gatifoes-do-poleiro.png",
+      "pngMotto": "emblemas_lema_png/gatifoes-do-poleiro.png"
+    },
+    "palacio-da-miaucura": {
+      "name": "Palácio da Miaucura",
+      "motto": "Sete vidas, zero juízo.",
+      "px": {
+        "x": 1024,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.5,
+        "v0": 0.875,
+        "u1": 0.625,
+        "v1": 1.0
+      },
+      "colors": [
+        "#4E2E5C",
+        "#E8C870"
+      ],
+      "shape": "escudo",
+      "motif": "palacio_orelhas",
+      "png": "emblemas_png/palacio-da-miaucura.png",
+      "pngMotto": "emblemas_lema_png/palacio-da-miaucura.png"
+    },
+    "pata-abaixo": {
+      "name": "Pata-Abaixo",
+      "motto": "Cai sempre de pé.",
+      "px": {
+        "x": 1280,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.625,
+        "v0": 0.875,
+        "u1": 0.75,
+        "v1": 1.0
+      },
+      "colors": [
+        "#5A3A22",
+        "#EAD9B5"
+      ],
+      "shape": "redondo",
+      "motif": "pata_queda",
+      "png": "emblemas_png/pata-abaixo.png",
+      "pngMotto": "emblemas_lema_png/pata-abaixo.png"
+    },
+    "cesto-dos-gatuloes": {
+      "name": "Cesto dos Gatulões",
+      "motto": "Ninho cheio, ronrom garantido.",
+      "px": {
+        "x": 1536,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.75,
+        "v0": 0.875,
+        "u1": 0.875,
+        "v1": 1.0
+      },
+      "colors": [
+        "#4F5A2C",
+        "#E9DDBB",
+        "#C9A46A"
+      ],
+      "shape": "escudo",
+      "motif": "cesto_gatos",
+      "png": "emblemas_png/cesto-dos-gatuloes.png",
+      "pngMotto": "emblemas_lema_png/cesto-dos-gatuloes.png"
+    },
+    "pra-miau-tao": {
+      "name": "Prá-Miau-Tão",
+      "motto": "Proa ao vento, bigodes ao alto.",
+      "px": {
+        "x": 1792,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.875,
+        "v0": 0.875,
+        "u1": 1.0,
+        "v1": 1.0
+      },
+      "colors": [
+        "#2C4A6E",
+        "#EFEAE0"
+      ],
+      "shape": "redondo",
+      "motif": "nau_gato",
+      "png": "emblemas_png/pra-miau-tao.png",
+      "pngMotto": "emblemas_lema_png/pra-miau-tao.png"
+    },
+    "spreit-o-telhado": {
+      "name": "Spreit-ó-Telhado",
+      "motto": "Quem espreita do alto vê a rua inteira.",
+      "px": {
+        "x": 0,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.0,
+        "v0": 0.75,
+        "u1": 0.125,
+        "v1": 0.875
+      },
+      "colors": [
+        "#2E3440",
+        "#E2B84E",
+        "#B4583A"
+      ],
+      "shape": "escudo",
+      "motif": "gato_telhado",
+      "png": "emblemas_png/spreit-o-telhado.png",
+      "pngMotto": "emblemas_lema_png/spreit-o-telhado.png"
+    },
+    "miau-o-linda": {
+      "name": "Miau-Ó-Linda",
+      "motto": "Bonita é a cidade vista do telhado.",
+      "px": {
+        "x": 256,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.125,
+        "v0": 0.75,
+        "u1": 0.25,
+        "v1": 0.875
+      },
+      "colors": [
+        "#9C3D54",
+        "#F3E3C3",
+        "#D9A441"
+      ],
+      "shape": "redondo",
+      "motif": "flor_gato",
+      "png": "emblemas_png/miau-o-linda.png",
+      "pngMotto": "emblemas_lema_png/miau-o-linda.png"
+    },
+    "miaunkas": {
+      "name": "Miaunkas",
+      "motto": "Pata ante pata, até ao cimo dos Andes.",
+      "px": {
+        "x": 512,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.25,
+        "v0": 0.75,
+        "u1": 0.375,
+        "v1": 0.875
+      },
+      "colors": [
+        "#7A2E2A",
+        "#D9A441",
+        "#F2E6C9"
+      ],
+      "shape": "escudo",
+      "motif": "montanha_orelhas",
+      "png": "emblemas_png/miaunkas.png",
+      "pngMotto": "emblemas_lema_png/miaunkas.png"
+    },
+    "boa-miau-ela": {
+      "name": "Boa-Miau-Ela",
+      "motto": "Bola ao alto, patas no chão.",
+      "px": {
+        "x": 768,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.375,
+        "v0": 0.75,
+        "u1": 0.5,
+        "v1": 0.875
+      },
+      "colors": [
+        "#3D6688",
+        "#EAD7A8",
+        "#B8463A"
+      ],
+      "shape": "redondo",
+      "motif": "bola_patas",
+      "png": "emblemas_png/boa-miau-ela.png",
+      "pngMotto": "emblemas_lema_png/boa-miau-ela.png"
+    },
+    "rato-taxi": {
+      "name": "Rato-Táxi",
+      "motto": "Duas portas, sete vidas.",
+      "px": {
+        "x": 1024,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.5,
+        "v0": 0.75,
+        "u1": 0.625,
+        "v1": 0.875
+      },
+      "colors": [
+        "#2E5B5E",
+        "#EDE3CC",
+        "#D9A441"
+      ],
+      "shape": "escudo",
+      "motif": "portas_rato",
+      "png": "emblemas_png/rato-taxi.png",
+      "pngMotto": "emblemas_lema_png/rato-taxi.png"
+    },
+    "corsigatos-ilheus": {
+      "name": "Corsigatos Ilhéus",
+      "motto": "À abordagem, que a sardinha não espera!",
+      "px": {
+        "x": 1280,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.625,
+        "v0": 0.75,
+        "u1": 0.75,
+        "v1": 0.875
+      },
+      "colors": [
+        "#23404F",
+        "#EDE6D6",
+        "#A8352E"
+      ],
+      "shape": "redondo",
+      "motif": "gato_pirata",
+      "png": "emblemas_png/corsigatos-ilheus.png",
+      "pngMotto": "emblemas_lema_png/corsigatos-ilheus.png"
+    },
+    "ka-patorras": {
+      "name": "Ka-Patorras",
+      "motto": "Patas na terra, cabeça na lua.",
+      "px": {
+        "x": 1536,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.75,
+        "v0": 0.75,
+        "u1": 0.875,
+        "v1": 0.875
+      },
+      "colors": [
+        "#3E2A1E",
+        "#E0B25C"
+      ],
+      "shape": "escudo",
+      "motif": "patorra_lua",
+      "png": "emblemas_png/ka-patorras.png",
+      "pngMotto": "emblemas_lema_png/ka-patorras.png"
+    },
+    "trunfe-bigodes": {
+      "name": "Trunfé-Bigodes",
+      "motto": "Quem tem bigode tem trunfo.",
+      "px": {
+        "x": 1792,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.875,
+        "v0": 0.75,
+        "u1": 1.0,
+        "v1": 0.875
+      },
+      "colors": [
+        "#9B2C2C",
+        "#F2EDE0",
+        "#D8D1C2"
+      ],
+      "shape": "redondo",
+      "motif": "carta_gato",
+      "png": "emblemas_png/trunfe-bigodes.png",
+      "pngMotto": "emblemas_lema_png/trunfe-bigodes.png"
+    },
+    "faro-gato-das-ilhas": {
+      "name": "Faro-Gato das Ilhas",
+      "motto": "Guiados pelo nariz e pelas estrelas.",
+      "px": {
+        "x": 0,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.0,
+        "v0": 0.625,
+        "u1": 0.125,
+        "v1": 0.75
+      },
+      "colors": [
+        "#1F4E6B",
+        "#F2E6C9",
+        "#E8BE66"
+      ],
+      "shape": "escudo",
+      "motif": "olho_feixe",
+      "png": "emblemas_png/faro-gato-das-ilhas.png",
+      "pngMotto": "emblemas_lema_png/faro-gato-das-ilhas.png"
+    },
+    "solar-dos-acorgatos": {
+      "name": "Solar dos Açorgatos",
+      "motto": "Entre o mar e a serra, sempre ao sol.",
+      "px": {
+        "x": 256,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.125,
+        "v0": 0.625,
+        "u1": 0.25,
+        "v1": 0.75
+      },
+      "colors": [
+        "#4F63A0",
+        "#DCE3F2",
+        "#3F6B4E"
+      ],
+      "shape": "redondo",
+      "motif": "ilha_gato",
+      "png": "emblemas_png/solar-dos-acorgatos.png",
+      "pngMotto": "emblemas_lema_png/solar-dos-acorgatos.png"
+    },
+    "fantasgatos": {
+      "name": "Fantasgatos",
+      "motto": "Ninguém nos vê passar, toda a gente nos ouve miar.",
+      "px": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.25,
+        "v0": 0.625,
+        "u1": 0.375,
+        "v1": 0.75
+      },
+      "colors": [
+        "#3B4A5E",
+        "#EDE9E0"
+      ],
+      "shape": "escudo",
+      "motif": "lencol_orelhas",
+      "png": "emblemas_png/fantasgatos.png",
+      "pngMotto": "emblemas_lema_png/fantasgatos.png"
+    },
+    "praceta-dos-gatos": {
+      "name": "Praceta dos Gatos",
+      "motto": "Quem tem sede de saber vai à fonte.",
+      "px": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.375,
+        "v0": 0.625,
+        "u1": 0.5,
+        "v1": 0.75
+      },
+      "colors": [
+        "#2F6E86",
+        "#EFE6D2"
+      ],
+      "shape": "redondo",
+      "motif": "fonte_gato",
+      "png": "emblemas_png/praceta-dos-gatos.png",
+      "pngMotto": "emblemas_lema_png/praceta-dos-gatos.png"
+    },
+    "solar-das-44-patas": {
+      "name": "Solar das 44 Patas",
+      "motto": "Onze gatos, quarenta e quatro patas, uma só casa.",
+      "px": {
+        "x": 1024,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.5,
+        "v0": 0.625,
+        "u1": 0.625,
+        "v1": 0.75
+      },
+      "colors": [
+        "#6B4A2B",
+        "#E8BE66"
+      ],
+      "shape": "escudo",
+      "motif": "n44_patas",
+      "png": "emblemas_png/solar-das-44-patas.png",
+      "pngMotto": "emblemas_lema_png/solar-das-44-patas.png"
+    },
+    "miaurenta": {
+      "name": "Miaurenta",
+      "motto": "Quarenta miados valem um ronrom.",
+      "px": {
+        "x": 1280,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.625,
+        "v0": 0.625,
+        "u1": 0.75,
+        "v1": 0.75
+      },
+      "colors": [
+        "#34495E",
+        "#E3A58A"
+      ],
+      "shape": "redondo",
+      "motif": "n40_gato",
+      "png": "emblemas_png/miaurenta.png",
+      "pngMotto": "emblemas_lema_png/miaurenta.png"
+    },
+    "gatas-do-loureiro": {
+      "name": "Gatas do Loureiro",
+      "motto": "Folha de louro, bigode de ouro.",
+      "px": {
+        "x": 1536,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.75,
+        "v0": 0.625,
+        "u1": 0.875,
+        "v1": 0.75
+      },
+      "colors": [
+        "#4E6B3A",
+        "#EBD9A6",
+        "#E3B04A"
+      ],
+      "shape": "escudo",
+      "motif": "gato_louro",
+      "png": "emblemas_png/gatas-do-loureiro.png",
+      "pngMotto": "emblemas_lema_png/gatas-do-loureiro.png"
+    },
+    "pyn-gatyns": {
+      "name": "Pyn-Gatyns",
+      "motto": "Escorregar também é arte.",
+      "px": {
+        "x": 1792,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.875,
+        "v0": 0.625,
+        "u1": 1.0,
+        "v1": 0.75
+      },
+      "colors": [
+        "#BFD3DE",
+        "#1E2A38",
+        "#E8BE66"
+      ],
+      "shape": "redondo",
+      "motif": "gato_casaca",
+      "png": "emblemas_png/pyn-gatyns.png",
+      "pngMotto": "emblemas_lema_png/pyn-gatyns.png"
+    },
+    "solar-da-rosa-ruiva": {
+      "name": "Solar da Rosa Ruiva",
+      "motto": "Uma rosa à porta, um gato à janela.",
+      "px": {
+        "x": 0,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.0,
+        "v0": 0.5,
+        "u1": 0.125,
+        "v1": 0.625
+      },
+      "colors": [
+        "#2F4F3A",
+        "#F2E3C6",
+        "#A9553B"
+      ],
+      "shape": "escudo",
+      "motif": "gato_janela_rosa",
+      "png": "emblemas_png/solar-da-rosa-ruiva.png",
+      "pngMotto": "emblemas_lema_png/solar-da-rosa-ruiva.png"
+    },
+    "simpatas": {
+      "name": "Simpatas",
+      "motto": "Simpatia não se ensina, ronrona-se.",
+      "px": {
+        "x": 256,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.125,
+        "v0": 0.5,
+        "u1": 0.25,
+        "v1": 0.625
+      },
+      "colors": [
+        "#8A5A1E",
+        "#F1E4C4",
+        "#7FA3BF"
+      ],
+      "shape": "redondo",
+      "motif": "gatos_testa",
+      "png": "emblemas_png/simpatas.png",
+      "pngMotto": "emblemas_lema_png/simpatas.png"
+    },
+    "quimbo-dos-bigodes": {
+      "name": "Quimbo dos Bigodes",
+      "motto": "Quem por cá passou deixou pegada.",
+      "px": {
+        "x": 512,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uv": {
+        "u0": 0.25,
+        "v0": 0.5,
+        "u1": 0.375,
+        "v1": 0.625
+      },
+      "colors": [
+        "#3E3A5E",
+        "#E9D9B0",
+        "#9E4A3A"
+      ],
+      "shape": "escudo",
+      "motif": "bigodes_pegadas",
+      "png": "emblemas_png/quimbo-dos-bigodes.png",
+      "pngMotto": "emblemas_lema_png/quimbo-dos-bigodes.png"
+    }
+  }
+}
